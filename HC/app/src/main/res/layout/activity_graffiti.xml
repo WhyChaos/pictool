@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffffff">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ffffff">
+        <com.example.hc.utils.add.PaintView
+            android:id="@+id/paint_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+
+        <HorizontalScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:alpha="1"
+            android:background="#00000010">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:paddingBottom="10dp"
+                android:alpha="1"
+                android:background="#00000010"
+                >
+                <Button
+                    android:id="@+id/btn_undo"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:text="后退" />
+
+                <Button
+                    android:id="@+id/btn_do"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:text="前进" />
+
+                <Button
+                    android:id="@+id/btn_red"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:text="红色" />
+
+                <Button
+                    android:id="@+id/btn_blue"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:text="蓝色" />
+
+                <Button
+                    android:id="@+id/btn_green"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:text="绿色" />
+
+                <Button
+                    android:id="@+id/btn_scral"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:text="放大" />
+
+                <Button
+                    android:id="@+id/btn_eraser"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:text="橡皮擦" />
+
+                <Button
+                    android:id="@+id/btn_ok"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:text="OK" />
+
+            </LinearLayout>
+        </HorizontalScrollView>
+
+    </FrameLayout>
+
+
+
+
+
+
+</LinearLayout>

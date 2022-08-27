@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#000000">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ffffff">
+
+        <com.example.hc.utils.add.DrawMosaicView
+            android:id="@+id/mosaic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:background="#ffffff"
+            android:contentDescription="@string/app_name" />
+
+        <HorizontalScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:alpha="1"
+            android:background="#00ffffff">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:alpha="1"
+                android:background="#00ffffff"
+                >
+
+                <Button
+                    android:id="@+id/btn_ok"
+                    android:text="OK"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="22sp"
+                    />
+                <Button
+                    android:id="@+id/action_base"
+                    android:text="基础"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="22sp"
+                    />
+                <Button
+                    android:id="@+id/action_flower"
+                    android:text="花色"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="22sp"
+                    />
+                <Button
+                    android:id="@+id/action_ground_glass"
+                    android:text="毛玻璃"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="22sp"
+                    />
+                <Button
+                    android:id="@+id/action_rainbow"
+                    android:text="彩虹"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="22sp"
+                    />
+                <Button
+                    android:id="@+id/action_beauty"
+                    android:text="绚丽"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="22sp"
+                    />
+                <Button
+                    android:id="@+id/action_size_up"
+                    android:text="变大"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="22sp"
+                    />
+                <Button
+                    android:id="@+id/action_size_down"
+                    android:text="变小"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="22sp"
+                    />
+                <Button
+                    android:id="@+id/action_eraser"
+                    android:text="橡皮檫"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="22sp"
+                    />
+            </LinearLayout>
+        </HorizontalScrollView>
+
+    </FrameLayout>
+</LinearLayout>
+

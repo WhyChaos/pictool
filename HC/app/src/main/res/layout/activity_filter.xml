@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffffff">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ffffff">
+
+        <com.github.chrisbanes.photoview.PhotoView
+            android:id="@+id/pic"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+        <HorizontalScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:alpha="1"
+            android:background="#000010">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:paddingBottom="10dp"
+                android:alpha="1"
+                android:background="#000010"
+                >
+
+                <Button
+                    android:id="@+id/origin_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#000010"
+
+                    android:padding="10dp"
+                    android:text="原图"
+                    android:textColor="#ffffff"
+                    android:textColorHighlight="#888888" />
+
+                <Button
+                    android:id="@+id/sepia_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:background="#000010"
+                    android:text="怀旧"
+                    android:textColor="#ffffff"
+                    android:textColorHighlight="#888888" />
+
+                <Button
+                    android:id="@+id/gray_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#000010"
+                    android:padding="10dp"
+                    android:text="黑白"
+                    android:textColor="#ffffff"
+                    android:textColorHighlight="#888888" />
+
+                <Button
+                    android:id="@+id/sketch_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#000010"
+                    android:padding="10dp"
+                    android:text="素描"
+                    android:textColor="#ffffff"
+                    android:textColorHighlight="#888888" />
+
+                <Button
+                    android:id="@+id/emboss_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#000010"
+                    android:padding="10dp"
+                    android:text="浮雕"
+                    android:textColor="#ffffff"
+                    android:textColorHighlight="#888888" />
+
+                <Button
+                    android:id="@+id/softlight_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#000010"
+                    android:padding="10dp"
+                    android:text="光照"
+                    android:textColor="#ffffff"
+                    android:textColorHighlight="#888888" />
+
+                <Button
+                    android:id="@+id/haze_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#000010"
+                    android:padding="10dp"
+                    android:text="朦胧"
+                    android:textColor="#ffffff"
+                    android:textColorHighlight="#888888" />
+
+                <Button
+                    android:id="@+id/cga_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#000010"
+                    android:padding="10dp"
+                    android:text="CGA"
+                    android:textColor="#ffffff"
+                    android:textColorHighlight="#888888" />
+
+                <Button
+                    android:id="@+id/toon_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#000010"
+                    android:padding="10dp"
+                    android:text="卡通"
+                    android:textColor="#ffffff"
+                    android:textColorHighlight="#888888" />
+
+                <Button
+                    android:id="@+id/bulge_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#000010"
+                    android:padding="10dp"
+                    android:text="鱼眼"
+                    android:textColor="#ffffff"
+                    android:textColorHighlight="#888888" />
+
+                <Button
+                    android:id="@+id/colorin_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#000010"
+                    android:padding="10dp"
+                    android:text="底片"
+                    android:textColor="#ffffff"
+                    android:textColorHighlight="#888888" />
+
+                <Button
+                    android:id="@+id/glass_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#000010"
+                    android:padding="10dp"
+                    android:text="水晶球"
+                    android:textColor="#ffffff"
+                    android:textColorHighlight="#888888" />
+
+                <Button
+                    android:id="@+id/swirl_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#000010"
+                    android:padding="10dp"
+                    android:text="旋涡"
+                    android:textColor="#ffffff"
+                    android:textColorHighlight="#888888" />
+            </LinearLayout>
+
+
+        </HorizontalScrollView>
+
+    </FrameLayout>
+
+
+
+</LinearLayout>
